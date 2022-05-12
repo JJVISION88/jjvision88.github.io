@@ -177,12 +177,25 @@ body::before {
   z-index: 10;
   padding-right: 2rem;
 }
+@media screen and (max-width: 1441px) {
+  .menu {
+    -ms-flex-pack: distribute !important;
+        justify-content: space-around !important;
+    padding: 0 0.9rem;
+  }
+}
 .menu a {
   font-size: 1.5rem;
   color: #b83030 !important;
   letter-spacing: 1px;
   margin-right: 2rem;
   font-weight: bold;
+}
+@media screen and (max-width: 1441px) {
+  .menu a {
+    font-size: 0.9rem;
+    margin-right: 0;
+  }
 }
 
 section {
