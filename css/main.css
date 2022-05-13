@@ -170,7 +170,7 @@ body::before {
 }
 
 .menu {
-  height: 100px;
+  height: 12.76vw;
   position: absolute;
   top: 0;
   width: 100%;
@@ -212,10 +212,10 @@ section .videoContainer {
   width: 100%;
 }
 section .videoContainer.banner {
-  top: 100px;
+  top: 12.76vw;
 }
 section .videoContainer.filter {
-  top: 130px;
+  top: 8vw;
 }
 section .videoContainer ul {
   position: relative;
